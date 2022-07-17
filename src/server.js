@@ -16,5 +16,5 @@ initWebRoutes(app);
 let port = process.env.PORT || 8000;
 
 app.listen(port, () => {
-    console.log("node app is listening in the port:" + port)
+    console.log("http://localhost:" + port)
 })
